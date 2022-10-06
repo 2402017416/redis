@@ -11,6 +11,7 @@ public class JedisKeyTest {
         System.out.println(ret);
         Set<String> keys = jedis.keys("*");
         for(String key:keys){
+            //aa
             System.out.println(key);
         }
     }
